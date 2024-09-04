@@ -1,0 +1,15 @@
+package chapter01;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 기본 출력문 단축키
+		// syso or sysout (ctrl + space)
+		
+		// 실행 단축키
+		// ctrl + F11
+		System.out.println("Hello World!");
+	}
+
+}
