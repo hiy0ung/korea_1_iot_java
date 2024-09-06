@@ -24,6 +24,7 @@ class Book {
 	
 	Book(String title, String author) { // 매개변수로 받은 데이터로 속성 초기화
 		// this 생성자 -> 클래스 속성과 매개변수로 받는 값의 이름이 같을 때 구분
+		// this.클래스속성 = 매개변수명;
 		this.title = title; // 매개변수로 받아온 값을 Book 클래스 속성에 할당해서 초기화 시켜줘야함 (우항 ~ 좌항)
 		this.author = author;
 	}
