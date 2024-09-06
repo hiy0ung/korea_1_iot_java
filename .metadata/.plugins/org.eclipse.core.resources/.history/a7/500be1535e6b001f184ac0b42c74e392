@@ -1,0 +1,9 @@
+package chapter05;
+
+// 깃허브 설명 가져오기!!!
+
+public class Method02 {
+	public static void main(String[] args) {
+		
+	}
+}
