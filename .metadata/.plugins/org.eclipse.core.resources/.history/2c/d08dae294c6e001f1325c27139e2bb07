@@ -1,0 +1,7 @@
+package chapter09;
+
+public class A_Abstract {
+ public static void main(String[] args) {
+	
+}
+}

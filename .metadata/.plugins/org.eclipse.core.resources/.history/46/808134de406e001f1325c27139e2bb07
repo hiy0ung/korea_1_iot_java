@@ -1,0 +1,7 @@
+package chapter08;
+
+public class A_Class_Type {
+	public static void main(String[] args) {
+		
+	}
+}
