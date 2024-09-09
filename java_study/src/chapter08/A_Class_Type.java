@@ -42,9 +42,8 @@ public class A_Class_Type {
 		// >> 두 클래스 간에 공통된 특성이 아닌 경우 자식만의 기능은 사용 X
 		
 		// 2. 이미 만들어진 자식 객체를 부모 타입으로 변환
-		Child c1 = new Child();
-		
 		// 부모 클래스 객체변수 = 자식객체변수;
+		Child c1 = new Child();
 		Parent p1 = c1;
 		
 		// === 클래스의 강제 타입 변환(DownCating, 다운캐스팅) ===
