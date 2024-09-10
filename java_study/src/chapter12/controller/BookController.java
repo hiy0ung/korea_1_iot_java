@@ -3,7 +3,7 @@ package chapter12.controller;
 import java.util.ArrayList;
 import java.util.List;
 import chapter12.model.Book;
-
+ 
 // Book 데이터를 사용하여 기능 정의
 
 public class BookController {
@@ -34,7 +34,9 @@ public class BookController {
 		
 		// books 배열을 순환하여 각 순환마다 해당 요소를 Book 타입의 변수에 반환
 		// >> for-each문
-		// >> 
+		// for (배열요소타입: 배열명) {
+		
+		// }
 		for(Book book: books) {
 			if (book.getTitle().contains(title)) {
 				result.add(book);

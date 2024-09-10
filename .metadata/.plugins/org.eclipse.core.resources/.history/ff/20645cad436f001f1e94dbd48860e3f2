@@ -1,0 +1,10 @@
+package chapter13;
+/*
+	singleton 패턴
+	: 소프트웨어 설계 패턴
+	>> 클래스의 인스턴스가 하나만 생성되도록 보장
+	>> 해당 클래스의 인스턴스에 전역적인 접근을 제공하지만 일관된 상태를 유지
+*/
+public class Singleton {
+
+}

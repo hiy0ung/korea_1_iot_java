@@ -1,0 +1,8 @@
+package chapter14.view;
+
+import java.util.Scanner;
+
+public class OrderView {
+	// 사용자로부터 주문을 받는 로직
+	private Scanner sc = new Scanner(System.in);
+}
