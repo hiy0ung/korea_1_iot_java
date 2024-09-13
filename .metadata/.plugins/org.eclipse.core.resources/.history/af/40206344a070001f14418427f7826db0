@@ -1,0 +1,17 @@
+package chapter15;
+
+public class Book {
+	private String title;
+	private String author;
+	private String isbn; // ISBN - 공용 책 고유번호
+	private boolean isAvailable;
+	
+	// 생성자
+	public Book(String title, String author, String isbn) {
+		this.title = title;
+		this.author = author;
+		this.isbn = isbn;
+		this.isAvailable = true; // 기본값) 대여 가능 상태
+		
+	}
+}

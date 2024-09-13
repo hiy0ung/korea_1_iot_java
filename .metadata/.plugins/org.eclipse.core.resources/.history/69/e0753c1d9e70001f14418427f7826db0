@@ -1,0 +1,16 @@
+package chapter15;
+
+// Main 클래스
+// : 프로젝트 실행 클래스
+public class Main {
+	// main 메서드
+	// : 해당 메서드가 존재해야만 자바 프로그램 실행이 가능 (콘솔)
+	public static void main(String[] args) {
+		// == 프로젝트 개요 ==
+		// < 도서 관리 시스템 >
+		
+		// 1. 클래스 & 객체를 사용한 프로젝트 데이터 설정
+		// 1) 클래스: 도서(Book), 회원(Member), 대여(Loan)
+		
+	}
+}
