@@ -1,0 +1,20 @@
+package chapter19;
+/*
+	예외 처리
+	
+	cf) 예외: 프로그램 실행 중 발생하는 비정상적인 상황
+	
+	cf) 예외 종류: 체크 예외(컴파일 시점에 검사) / 언체크 예외 (런타임 시점에 발생)
+	
+	+) 예외 클래스의 계층 구조
+	
+	Throwable
+	> Error (시스템 레벨 오류)
+	> Exception
+		>> Checked
+		>> Unchecked
+*/
+
+public class Z_Exception {
+
+}

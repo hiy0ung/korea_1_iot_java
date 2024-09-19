@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="chapter06.Animal"/>
-    <fullyQualifiedTypeName name="chapter07.PrivateClass"/>
-    <fullyQualifiedTypeName name="chapter07.DefaultClass"/>
-    <fullyQualifiedTypeName name="otherPackage.ParentClass"/>
-    <fullyQualifiedTypeName name="chapter07.ProtectedClass"/>
-    <fullyQualifiedTypeName name="chapter07.A_Modifier"/>
-    <fullyQualifiedTypeName name="chapter07.Example"/>
-    <fullyQualifiedTypeName name="chapter07.Student"/>
-    <fullyQualifiedTypeName name="chapter07.ChildClass"/>
-    <fullyQualifiedTypeName name="java.lang.Package"/>
-    <fullyQualifiedTypeName name="chapter08.Parent"/>
-    <fullyQualifiedTypeName name="chapter08.Child"/>
-    <fullyQualifiedTypeName name="chapter08.Vehicle"/>
-    <fullyQualifiedTypeName name="chapter08.Subway"/>
-    <fullyQualifiedTypeName name="chapter08.Animal"/>
-    <fullyQualifiedTypeName name="chapter08.Dog"/>
-    <fullyQualifiedTypeName name="chapter09.Human"/>
     <fullyQualifiedTypeName name="chapter09.Student"/>
     <fullyQualifiedTypeName name="chapter09.PlayingCard"/>
     <fullyQualifiedTypeName name="chapter09.Card"/>
@@ -43,8 +26,6 @@
     <fullyQualifiedTypeName name="chapter13.Pair"/>
     <fullyQualifiedTypeName name="chapter13.Message"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
@@ -56,8 +37,27 @@
     <fullyQualifiedTypeName name="chapter14.model.OrderModel"/>
     <fullyQualifiedTypeName name="chapter14.view.OrderView"/>
     <fullyQualifiedTypeName name="chapter14.controller.OrderController"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="chapter15.BookAlreadyBorrowedException"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.module.ModuleDescriptor.Builder"/>
+    <fullyQualifiedTypeName name="chapter18.Product"/>
+    <fullyQualifiedTypeName name="chapter18.Product.Builder"/>
+    <fullyQualifiedTypeName name="chapter18.Student"/>
+    <fullyQualifiedTypeName name="java.rmi.StubNotFoundException"/>
+    <fullyQualifiedTypeName name="chapter18.Person"/>
+    <fullyQualifiedTypeName name="chapter18.Student.Builder"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="chapter18.practice.Product"/>
+    <fullyQualifiedTypeName name="chapter18.practice.Customer.Address"/>
+    <fullyQualifiedTypeName name="chapter18.practice.Customer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="chapter18.practice.Order"/>
+    <fullyQualifiedTypeName name="chapter19.Animal"/>
+    <fullyQualifiedTypeName name="chapter19.Vehicle"/>
+    <fullyQualifiedTypeName name="chapter19.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>

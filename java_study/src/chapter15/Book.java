@@ -1,9 +1,10 @@
 package chapter15;
 
+// 도서(Book) 클래스 정의
 public class Book {
 	private String title;
 	private String author;
-	private String isbn; // ISBN - 공용 책 고유번호
+	private String isbn; // ISBN - 공용 책 고유 번호
 	private boolean isAvailable;
 	
 	// 생성자
@@ -19,16 +20,16 @@ public class Book {
 	// : 대여 시 isAvailable을 false 설정
 	
 	// cf) 메서드명 옆의 throws 키워드
-	// : 해당 메서드가 특정 예외를 던질 수 있음을 나타냄 (가능성)
+	// : 해당 메서드가 특정 예외를 던질 수 있음을 나타냄(가능성)
 	
 	// >> 해당 메서드가 throws 예외를 던질 수 있으니 해당 메서드를 호출한 쪽에서
-	//	  , 해당 예외를 처리하도록 명시한 내용
+	//    , 해당 예외를 처리하도록 명시한 내용
 	public void borrowBook() throws BookAlreadyBorrowedException {
 		if (!isAvailable) {
-			throw new BookAlreadyBorrowedException(this.title + "(은)는 이미 대여 중입니다."); // this 안 붙여도 됨 (충돌날 이름 없으면)
+			throw new BookAlreadyBorrowedException(this.title + "(은)는 이미 대여 중입니다.");
 		}
 		isAvailable = false; // 대여 중으로 설정
-		System.out.println(this.title + "(이)가 대여되었습니다."); // this 안 붙여도 됨 (충돌날 이름 없으면)
+		System.out.println(title + "(이)가 대여되었습니다.");
 	}
 	
 	// 책 반납 메서드
@@ -42,12 +43,15 @@ public class Book {
 	public String getTitle() {
 		return title;
 	}
+	
 	public String getAuthor() {
 		return author;
 	}
+	
 	public String getIsbn() {
 		return isbn;
 	}
+	
 	public boolean isAvaliable() {
 		return isAvailable;
 	}
