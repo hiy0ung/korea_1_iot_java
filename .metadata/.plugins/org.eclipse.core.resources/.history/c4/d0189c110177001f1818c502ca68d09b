@@ -27,7 +27,7 @@ public class ReservationController {
 		
 		while(true) {
 			System.out.println("1. 사용자 등록 | 2. 로그인 | 3. 로그아웃");
-			System.out.println("4. 예약하기 | 5. 예약 확인 | 6. 예약 취소");
+			System.out.println("4. 예약하기 | 5. 예약하기 | 6. 예약 취소");
 			System.out.println("7. 종료");
 			System.out.print("선택: ");
 			
@@ -82,9 +82,7 @@ public class ReservationController {
 				System.out.println("사용자 ID: ");
 				userId = sc.nextLine();
 				List<Reservation> userReservations = reservationService.getReservations(userId);
-				
-				// 해당 리스트 컬렉션이 null 이 아니고 비워져 있지 않은 경우
-				if (userReservations != null && userReservations.isEmpty()) {
+				if (userReservations.isEmpty()) {
 					System.out.println("예약 내역이 없습니다.");
 				} else {
 					for (Reservation reservation: userReservations) {
@@ -107,9 +105,6 @@ public class ReservationController {
 				sc.close();
 				return;
 				// : 반복문 조건문, 함수에서는 return 키워드를 만나면 해당 체계가 종료!
-				
-			default:
-				System.out.println("잘못된 선택입니다. 다시 시도하세요.");
 			}
 		}
 	}

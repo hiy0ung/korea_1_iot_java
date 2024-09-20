@@ -35,16 +35,4 @@ public class ReservationService {
 		}
 		return userReservations; // 사용자의 활성 예약 목록 반환
 	}
-	
-	// 예약 취소 메서드
-	public void cancelReservation(String reservationId) {
-		for (Reservation reservation: reservations) {
-			if(reservation.getReservationId().equals(reservationId) && reservation.isActive()) {
-				reservation.cancel(); // 예약 취소
-				System.out.println("예약 취소 완료: " + reservationId);
-				return;
-			}
-		}
-		System.out.println("예약 취소 실패: 예약 ID가 잘못되었습니다.");
-	}
 }

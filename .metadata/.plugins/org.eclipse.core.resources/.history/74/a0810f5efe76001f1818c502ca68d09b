@@ -46,5 +46,6 @@ public class ReservationService {
 			}
 		}
 		System.out.println("예약 취소 실패: 예약 ID가 잘못되었습니다.");
+
 	}
 }
