@@ -25,7 +25,6 @@
     <fullyQualifiedTypeName name="chapter12.view.BookView"/>
     <fullyQualifiedTypeName name="chapter13.Pair"/>
     <fullyQualifiedTypeName name="chapter13.Message"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="chapter19.Vehicle"/>
     <fullyQualifiedTypeName name="chapter19.Person"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,21 @@
+package chapter20.Library2.controller;
+
+import java.util.Scanner;
+
+import chapter20.Library2.service.LibraryService;
+
+public class LibraryController {
+	private LibraryService libraryService = new LibraryService();
+	
+	public void start() {
+		Scanner sc = new Scanner(System.in);
+		boolean running = true;
+		
+		while(running) {
+			System.out.println("1: 도서등록 | 2: 사용자 등록 | 3: 도서 대여 | 4. 도서 반납 | 5. 도서 목록 조회 | 6: 종료");
+			
+			int choice = sc.nextInt();
+			sc.nextLine(); // nextInt() 개행(enter)이 남으므로 개행문자(\n, 줄바꿈) 소비
+		}
+	}
+}
