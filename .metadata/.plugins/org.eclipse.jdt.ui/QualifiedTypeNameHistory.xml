@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="chapter09.Student"/>
-    <fullyQualifiedTypeName name="chapter09.PlayingCard"/>
-    <fullyQualifiedTypeName name="chapter09.Card"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="chapter09.ExampleClass"/>
-    <fullyQualifiedTypeName name="chapter09.MobileApp"/>
-    <fullyQualifiedTypeName name="chapter09.GameApp"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="chapter10.CustomException"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="javax.smartcardio.Card"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="chapter11.EventManagement"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="chapter12.controller.BookController"/>
     <fullyQualifiedTypeName name="chapter12.model.Book"/>
@@ -31,12 +12,10 @@
     <fullyQualifiedTypeName name="chapter13.Singleton"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
     <fullyQualifiedTypeName name="chapter14.model.OrderModel"/>
     <fullyQualifiedTypeName name="chapter14.view.OrderView"/>
     <fullyQualifiedTypeName name="chapter14.controller.OrderController"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="chapter15.BookAlreadyBorrowedException"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.module.ModuleDescriptor.Builder"/>
@@ -51,8 +30,6 @@
     <fullyQualifiedTypeName name="chapter18.practice.Product"/>
     <fullyQualifiedTypeName name="chapter18.practice.Customer.Address"/>
     <fullyQualifiedTypeName name="chapter18.practice.Customer"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
     <fullyQualifiedTypeName name="chapter18.practice.Order"/>
     <fullyQualifiedTypeName name="chapter19.Animal"/>
@@ -60,4 +37,27 @@
     <fullyQualifiedTypeName name="chapter19.Person"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="chapter20.Library2.service.LibraryService"/>
+    <fullyQualifiedTypeName name="chapter20.Library2.model.Book"/>
+    <fullyQualifiedTypeName name="chapter20.Library2.model.User"/>
+    <fullyQualifiedTypeName name="chapter20.Library2.repository.BookRepository"/>
+    <fullyQualifiedTypeName name="chapter20.Library2.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="chapter20.Library2.controller.LibraryController"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.model.User"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.service.UserService"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.service.ReservationService"/>
+    <fullyQualifiedTypeName name="java.lang.ScopedValue"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.controller.ReservationController"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.repository.ReservationRepository"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.model.Reservation"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java_practice.Person"/>
+    <fullyQualifiedTypeName name="java_practice.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java_practice.Employee"/>
+    <fullyQualifiedTypeName name="java_practice.Developer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

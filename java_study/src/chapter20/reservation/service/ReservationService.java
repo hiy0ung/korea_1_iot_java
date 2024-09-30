@@ -9,42 +9,41 @@ import java.util.ArrayList;
 import java.util.List;
 
 import chapter20.reservation.model.Reservation;
+import chapter20.reservation.repository.ReservationRepository;
 
 public class ReservationService {
-	private List<Reservation> reservations;
-	
+	private ReservationRepository reservationRepository; // 예약 저장소
+
 	// 생성자
 	public ReservationService() {
-		this.reservations = new ArrayList<Reservation>();
+		this.reservationRepository = new ReservationRepository();
 	}
-	
+
 	// 예약 생성 메서드
 	public void createReservation(String reservationId, String userId, String reservationTime) {
 		Reservation newReservation = new Reservation(reservationId, userId, reservationTime);
-		reservations.add(newReservation); // 예약 목록에 추가
+		reservationRepository.addReservation(newReservation); // 예약 저장소에 추가
 		System.out.println("예약 완료: " + reservationTime);
 	}
-	
+
 	// 예약 확인 메서드
 	public List<Reservation> getReservations(String userId) {
-		List<Reservation> userReservations = new ArrayList<Reservation>();
-		for (Reservation reservation: reservations) {
-			if(reservation.getUserId().equals(userId) && reservation.isActive()) {
-				userReservations.add(reservation); // 활성 예약 추가
-			}
-		}
-		return userReservations; // 사용자의 활성 예약 목록 반환
+		List<Reservation> userReservations = reservationRepository.findAll();
+
+		return userReservations.stream()
+				.filter(reservation -> reservation.getUserId().equals(userId) && reservation.isActive())
+				.toList(); // 사용자 ID와 활성 예약 필터
 	}
-	
+
 	// 예약 취소 메서드
 	public void cancelReservation(String reservationId) {
-		for (Reservation reservation: reservations) {
-			if(reservation.getReservationId().equals(reservationId) && reservation.isActive()) {
-				reservation.cancel(); // 예약 취소
-				System.out.println("예약 취소 완료: " + reservationId);
-				return;
-			}
+		Reservation reservation = reservationRepository.findById(reservationId);
+
+		if (reservation != null && reservation.isActive()) {
+			reservation.cancel(); // 예약 취소
+			System.out.println("예약 취소 완료: " + reservationId);
+		} else {
+			System.out.println("예약 취소 실패: 예약 ID가 잘못되었습니다.");
 		}
-		System.out.println("예약 취소 실패: 예약 ID가 잘못되었습니다.");
 	}
 }

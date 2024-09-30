@@ -17,4 +17,6 @@
 		<item key="BUILD_NOW" value="true"/>
 		<item key="BUILD_ALL" value="true"/>
 	</section>
+	<section name="SmartImportWizard">
+	</section>
 </section>

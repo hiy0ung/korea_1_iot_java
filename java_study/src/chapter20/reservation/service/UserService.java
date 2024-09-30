@@ -9,31 +9,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 import chapter20.reservation.model.User;
+import chapter20.reservation.repository.UserRepository;
 
 public class UserService {
-	private List<User> users; // 사용자 목록
-	private User loggedInUser; // 현재 로그인한 사용자
+	private UserRepository userRepository;
+	private User loggedInUser = null; // 현재 로그인한 사용자
 	
 	// 생성자
 	public UserService( ) {
-		this.users = new ArrayList<User>();
+		this.userRepository = new UserRepository();
+		this.loggedInUser = null; // 초기 로그인 사용자 X
 	}
 	
 	// 사용자 등록(회원가입) 메서드
 	public void registerUser(String userId, String password, String name, String email) {
 		User newUser = new User(userId, password, name, email);
-		users.add(newUser); // 사용자 목록에 추가
+		userRepository.addUser(newUser); // 사용자 저장소에 추가
 		System.out.println("사용자 등록 완료: " + name);
 	}
 	
 	// 사용자 로그인 메서드
 	public boolean login(String userId, String password) {
-		for (User user : users) {
-			if (user.getUserId().equals(userId) && user.getPassword().equals(password)) {
-				loggedInUser = user; // 로그인 한 사용자 설정
-				System.out.println("로그인 성공: " + user.getName());
-				return true;
-			}
+		User user = userRepository.findById(userId); // 사용자 조회
+		if (user != null && user.getPassword().equals(password)) {
+			loggedInUser = user; // 로그인 한 사용자 설정
+			System.out.println("로그인 성공: " + user.getName());
+			return true;
 		}
 		System.out.println("로그인 실패: 사용자 ID 또는 비밀번호가 잘못되었습니다.");
 		return false;

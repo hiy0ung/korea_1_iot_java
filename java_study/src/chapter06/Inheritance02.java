@@ -60,7 +60,7 @@ class Cat extends Mammel {
 public class Inheritance02 {
 	public static void main(String[] args) {
 		Cat voidCat = new Cat();
-		Cat myCat = new Cat("choco");
+		Cat myCat = new Cat("coco");
 		
 		voidCat.greet(); // 자식: Child 부모: Parent
 		myCat.greet(); // 자식: Child 부모: choco

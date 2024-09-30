@@ -1,8 +1,0 @@
-package chapter19;
-
-// 람다 표현식(Lambda Expression)
-public class Lambda01 {
-	public static void main(String[] args) {
-		
-	}
-}

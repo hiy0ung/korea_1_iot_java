@@ -45,8 +45,8 @@ public class A_Class_Type {
 		// 부모 클래스 객체변수 = 자식객체변수;
 		Child c1 = new Child();
 		Parent p1 = c1;
-		
-		// === 클래스의 강제 타입 변환(DownCating, 다운캐스팅) ===
+		p1.displayInfo();
+		// === 클래스의 강제 타입 변환(DownCasting, 다운캐스팅) ===
 		// : 부모 클래스 타입으로 변환된 객체를
 		// 	 , 다시 자식 클래스 타입으로 변환하는 것을 의미
 		// >> 자식 클래스에서 정의된 멤버에 접근

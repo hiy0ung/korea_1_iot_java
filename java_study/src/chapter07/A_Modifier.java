@@ -1,4 +1,4 @@
-package chapter07;
+ package chapter07;
 
 // == 자바 패키지 또는 클래스 파일 간의 코드 연결 ==
 // import 문을 사용

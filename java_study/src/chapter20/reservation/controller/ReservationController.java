@@ -12,7 +12,6 @@ import chapter20.reservation.service.UserService;
 	- 사용자 요청을 처리하고 알맞은 서비스 메서드를 호출
 	- 콘솔 기반의 인터페이스로 사용자와 상호작용
 */
-
 public class ReservationController {
 	private UserService userService;
 	private ReservationService reservationService;

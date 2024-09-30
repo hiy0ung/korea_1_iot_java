@@ -1,7 +1,0 @@
-package chapter19;
-
-public class Anonymous {
-	public static void main(String[] args) {
-		
-	}
-}
