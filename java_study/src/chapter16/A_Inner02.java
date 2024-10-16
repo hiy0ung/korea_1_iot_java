@@ -23,7 +23,9 @@ class School {
 		}
 		
 		public void displayInfo() {
-			System.out.println("학교: " + name);
+			System.out.println("학교: " + name); 
+			// getName() 메서드로 name 대체 가능 
+			// name 필드가 private라서 클래스 내에서만 접근 할 수 있는데 Student 클래스가 School 클래스의 내부 클래스라 name 필드로 접근이 가능
 			System.out.println("학생 이름: " + studentName);
 			System.out.println("학생 ID: " + studentId);
 		}
@@ -65,7 +67,6 @@ public class A_Inner02 {
 		
 		// == 교사 정보 출력 ==
 		teacher1.displayInfo();
-		teacher2.displayInfo();
-				
+		teacher2.displayInfo();				
 	}
 }

@@ -36,8 +36,8 @@ public class E_Map {
 			- containsKey(Object key)
 			: 주어진 키가 Map에 있는지 확인하여 boolean으로 반환
 		
-			- keySet(): Map의 키 Set을 반환
-			- values(): Map의 값 컬렉션을 반환
+			- keySet(): Map의 키 Set을 반환 (set - 중복을 허용하지 않음(키 중복 X) / set을 토대로 배열 형태로 반환)
+			- values(): Map의 값 컬렉션을 반환 (List - 중복 허용 (값 중복 O) / list를 토대로 배열 형태로 반환)
 			- entrySet(): Map의 키-값 쌍을 나타내는 Set을 반환 
 			
 			== Map 컬렉션 선언 방법 ==

@@ -59,7 +59,7 @@ public class JavaLang {
 		// sqrt(데이터): 제곱근 반환
 		System.out.println(Math.sqrt(4.0)); // 2.0
 		
-		// random(): 0.0에서 0.1 사이의 난수 생성
+		// random(): 0.0에서 1.0 사이의 난수 생성
 		System.out.println(Math.random() * 10); // 1.038830231586385
 		
 		// pow(a, b): 거듭제곱 반환
@@ -90,7 +90,5 @@ public class JavaLang {
 		
 		int index = message.indexOf("World");
 		System.out.println(index); // 7
-		
-		
 	}
 }
